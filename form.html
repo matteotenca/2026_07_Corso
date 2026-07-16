@@ -8,7 +8,7 @@
 <body style="font-size: 40px;">
 
 <!-- method dei form: GET o POST -->
-<form id="primo_form" action="/index.html" method="GET" name="primo_form" target="_blank">
+<form id="primo_form" action="" method="get" target="_blank">
     <label for="input_nome">Nome</label>
     <br>Inserire tutti i nomi di battesimo<br>
     <input name="campo_nome" id="input_nome" type="text" value="Matteo">
@@ -17,7 +17,15 @@
     <br>
     <input name="campo_cognome" id="input_cognome" type="text" value="">
     <input type="button" value="Clicca qui">
-    <button>Clicca qui</button>
+    <button id="bottone_semantico" type="button"> Clicca sul button</button>
+    <br>
+    <input type="reset" value="Cancella form">
+    <button type="reset">Spazza via il contenuto</button>
+    <br>
+    <label for="password_untente">Password</label>
+    <input id="password_untente" type="password" value="Inserisci la tua password">
+    <br>
+
     <br>
     <input type="submit" value="Invia dati">
 </form>
