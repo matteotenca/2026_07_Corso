@@ -7,6 +7,12 @@
 </head>
 <body style="font-size: 25px;">
 
+<!--Ancora interna / link interno-->
+<a href="#id_email">Pag 1</a> | <a href="#id_email">Pag 2</a>
+<br><br>
+
+<a href="#id_email">Vai in fondo</a>
+
 <!-- method dei form: GET o POST -->
 <form id="primo_form" action="" method="get" target="_blank">
     <label for="input_nome">Nome</label>
@@ -15,7 +21,8 @@
     <br>
     <label for="input_cognome">Cognome</label>
     <br>
-    <input name="campo_cognome" id="input_cognome" type="text" value="">
+<!-- Espressione regalore per l'attributo pattern ^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$ -->
+    <input name="campo_cognome" required id="input_cognome" type="text" value="">
     <input type="button" value="Clicca qui">
     <button id="bottone_semantico" type="button"> Clicca sul button</button>
     <br>
@@ -29,7 +36,7 @@
     <input id="data_nascita" type="date" name="nascita">
     <br>
     <label for="orario"></label>
-    <input id="orario" type="time" >
+    <input id="orario" type="time">
     <br>
     <label for="numero">Numero</label>
     <input id="numero" min="10" max="20" step="5" type="number">
@@ -40,24 +47,60 @@
     <label for="colore">Colore</label>
     <input id="colore" type="color" name="mio_colore">
     <br>
-    <input type="file" value="Scegli un file" name="mio_file"  accept=".html,.jpg">
+    <input type="file" value="Scegli un file" name="mio_file" accept=".html,.jpg">
     <br>
     <br>
-    <label for="area">Textarea</label>
-    <textarea name="mio_testo" maxlength="5" id="area" cols="30" rows="10"></textarea>
-    <br><br>
-    <label for="tendina">Tendina</label>
-    <select name="mia_tendina" id="tendina">
-        <option value="">Seleziona un testo</option>
-        <option value="1">Pippo</option>
-        <option value="2">2</option>
-        <option value="3">3</option>
-        <option value="4">4</option>
-        <option value="5">5</option>
-    </select>
+    <fieldset>
+        <legend>Titolo del fieldset</legend>
+        <label for="tendina">Tendina</label>
+        <select name="mia_tendina" id="tendina">
+            <option value="">Seleziona un testo</option>
+            <optgroup label="Disney">
+            <option value="0">Paperino</option>
+            <option value="1">Pippo</option>
+            </optgroup>
+            <optgroup label="Numeri">
+            <option value="2">2</option>
+            <option value="3" selected>3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            </optgroup>
+        </select>
+        <br>
+        <br>
+        <button>Bottone</button>
+    </fieldset>
     <br>
     <br>
-
+    <label for="id_radio">Pippo</label>
+    <input id="id_radio" name="mio_checkbox" type="checkbox" value="Pippo">
+    <br>
+    <br>
+    <label>
+        Luna
+        <input type="radio" value="Luna" name="pianeti">
+    </label>
+    <br>
+    <label>
+        Ganimede
+        <input type="radio" value="Ganimede" name="pianeti" checked>
+    </label>
+    <br>
+    <label>
+        Io
+        <input type="radio" value="Io" name="pianeti">
+    </label>
+    <br>
+    <label>
+        Europa
+        <input type="radio" value="Europa" name="pianeti">
+    </label>
+    <br>
+    <br>
+    <label for="id_email">Email</label>
+    <input id="id_email" type="email" name="indirizzo_email">
+    <br>
+    <br>
     <input type="submit" value="Invia dati">
 </form>
 
