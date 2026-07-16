@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Form</title>
 </head>
-<body style="font-size: 40px;">
+<body style="font-size: 25px;">
 
 <!-- method dei form: GET o POST -->
 <form id="primo_form" action="" method="get" target="_blank">
@@ -25,8 +25,39 @@
     <label for="password_untente">Password</label>
     <input id="password_untente" type="password" value="Inserisci la tua password">
     <br>
-
+    <label for="data_nascita"></label>
+    <input id="data_nascita" type="date" name="nascita">
     <br>
+    <label for="orario"></label>
+    <input id="orario" type="time" >
+    <br>
+    <label for="numero">Numero</label>
+    <input id="numero" min="10" max="20" step="5" type="number">
+    <br>
+    <label for="intervallo"></label>
+    <input id="intervallo" type="range" min="1" max="10" step="1" name="valore_intervallo">
+    <br>
+    <label for="colore">Colore</label>
+    <input id="colore" type="color" name="mio_colore">
+    <br>
+    <input type="file" value="Scegli un file" name="mio_file"  accept=".html,.jpg">
+    <br>
+    <br>
+    <label for="area">Textarea</label>
+    <textarea name="mio_testo" maxlength="5" id="area" cols="30" rows="10"></textarea>
+    <br><br>
+    <label for="tendina">Tendina</label>
+    <select name="mia_tendina" id="tendina">
+        <option value="">Seleziona un testo</option>
+        <option value="1">Pippo</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+    </select>
+    <br>
+    <br>
+
     <input type="submit" value="Invia dati">
 </form>
 
