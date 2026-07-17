@@ -23,11 +23,30 @@ body {
     background-color: #ffffff;
 }
 
+/* selettore di un tag <p> a bassa specificita' */
 p {
     color: darkcyan;
     font-style: italic;
-    /*background-color: #f6f6f6;*/
+    background-color: #bdb7b7;
     text-decoration: underline;
 }
+
+/* selettore di un tag <p> a media specificita' */
+.miaclasse {
+    background-color: #070e0d;
+    font-size: 40px;
+}
+
+.classecolore {
+    color: #50e80f;
+}
+
+/* selettore di un tag <p> ad alta specificita' */
+#paragrafo_speciale {
+    background-color: #aad9d1;
+    text-decoration: none;
+    color: white;
+}
+
 
 
