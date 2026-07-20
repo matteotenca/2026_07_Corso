@@ -1,0 +1,23 @@
+
+
+.miaclasse {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.testweight {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 100;
+    font-style: normal;
+    text-decoration: line-through underline;
+    color: blue;
+}
+
+.transform {
+    text-transform: initial;
+    line-height: 20px;
+    letter-spacing: 1px;
+    word-spacing: 18px;
+}
