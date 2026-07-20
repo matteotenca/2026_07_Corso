@@ -1,7 +1,7 @@
 
 
 body {
-    font-size: 30px;
+    font-size: 15px;
     font-family: Tahoma, sans-serif;
 }
 
@@ -31,4 +31,22 @@ div:hover {
     background-color: darkslategrey;
     color: #50e80f;
     /*font-size: 25px;*/
+}
+
+
+
+#miatable tr:nth-child(odd) {
+    background-color: lightgrey;
+}
+
+#miatable tr:nth-child(even) {
+    background-color: slategrey;
+}
+
+#miatable tr:first-child {
+    background-color: dimgrey;
+}
+
+#miatable tr:last-child {
+    background-color: purple;
 }
