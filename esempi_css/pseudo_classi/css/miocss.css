@@ -1,0 +1,34 @@
+
+
+body {
+    font-size: 30px;
+    font-family: Tahoma, sans-serif;
+}
+
+a:hover {
+    color: orange;
+    /*font-size: 35px;*/
+    cursor: crosshair;
+}
+
+a:link {
+    color: #9A0000;
+}
+
+a:visited {
+    color: #6b0fbc;
+}
+
+#mioinput:focus {
+    outline: 1px solid #6b0fbc;
+}
+
+#mioinput:hover {
+    outline: 1px dotted #dc5aac;
+}
+
+div:hover {
+    background-color: darkslategrey;
+    color: #50e80f;
+    /*font-size: 25px;*/
+}
