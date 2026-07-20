@@ -4,9 +4,9 @@ thead {
     color: white;
 }
 
-tbody {
-    background-color: #e80f66;
-}
+/*tbody {*/
+/*    background-color: #e80f66;*/
+/*}*/
 
 table {
     border: grey solid 1px;
@@ -40,6 +40,36 @@ p {
 .classecolore {
     color: #50e80f;
 }
+
+main > section {
+    font-size: 50px;
+    color: #3145f1;
+}
+
+/*h1 + h6 {*/
+/*    color: darkcyan;*/
+/*}*/
+
+h1 ~ h6 {
+    color: darkcyan;
+}
+
+input[type="text"] {
+    background-color: #9A0000;
+}
+
+/*tr.miotr td {*/
+/*    color: darkcyan;*/
+/*}*/
+
+tr > td {
+    color: darkcyan;
+}
+
+.miotr {
+    background-color: #d9b707;
+}
+
 
 /* selettore di un tag <p> ad alta specificita' */
 #paragrafo_speciale {
