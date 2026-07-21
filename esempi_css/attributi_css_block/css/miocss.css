@@ -1,0 +1,35 @@
+
+* {
+    /*margin: 0;*/
+    /*padding: 0;*/
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('../sfondo.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.div-test-class {
+    background-color: #99e6e8;
+    /*background-image: url('../sfondo.jpg');*/
+    /*width: 50%;*/
+    /*height: 100px;*/
+    /*max-height: 100px;*/
+    /*min-height: 50px;*/
+    min-width: 200px;
+    max-width: 300px;
+    /*display: inline-block;*/
+    border: 1px solid #2c3e50;
+    /*overflow-y: scroll; !* overflow (x/y) overflow-x e overflow-y *!*/
+    border-radius: 2px;
+}
+
+.div-test-class-2 {
+    background-color: lightgoldenrodyellow;
+    /*width: 50%;*/
+    /*display: inline-block;*/
+}

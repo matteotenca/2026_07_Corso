@@ -1,0 +1,24 @@
+
+
+p {
+    font-size: 1em;
+}
+
+#miodiv {
+    /*margin-top: 25px;*/
+    /*margin-left: 15px;*/
+    /*border: 1px solid darkblue;*/
+    background-color: #d9b2d9;
+    width: 50%;
+    /*border: 1px solid black;*/
+    float: left;
+    /*padding: 3px;*/
+    /*width: 200px;*/
+}
+
+#miodiv_due {
+    background-color: #99e6e8;
+    width: 50%;
+    float: left;
+}
+
