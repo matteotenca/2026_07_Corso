@@ -1,0 +1,26 @@
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table td {
+    border: 1px solid black;
+}
+
+.bordo-sinistro {
+    border-left: 2px solid blue;
+}
+
+#mia-immagine {
+    /*display: none;*/
+    /*visibility: hidden;*/
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.display-none {
+    display: none;
+}
