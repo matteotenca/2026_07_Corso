@@ -1,0 +1,42 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container-principale {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: #99e6e8;
+    height: 20em;
+}
+
+.colonna-1 {
+    width: 30%;
+    background-color: green;
+    color: white;
+    padding: 10px;
+}
+
+.colonna-2 {
+    width: 70%;
+    background-color: yellow;
+    padding: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.riga-1 , .riga-2, .riga-3 {
+    background-color: #3498db;
+    padding: 10px;
+
+}
+
+.centra-verticalmente {
+    line-height: 18em;
+    text-align: center;
+}
